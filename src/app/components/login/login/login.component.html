@@ -8,7 +8,7 @@
                 <input type="email" class="form-control" placeholder="name@example.com" #username="ngModel"
                 [(ngModel)]="usuario.username" name="username" required/>
                 <label for="floatingInput"> Usuario : </label>
-                {{usuario.username}
+
 
                 <div class="alert alert-danger" *ngIf="!username.valid && username.touched">
                     El Nombre de Usuario es Requerido!.
