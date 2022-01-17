@@ -1,1 +1,13 @@
 /* You can add global styles to this file, and also import other style files */
+.footer {
+
+    margin-top: 125px;
+    text-align: center;
+    background-color: black;
+    color: white;
+    height: 75px;
+}
+
+h5 {
+    line-height: 70px;
+}
